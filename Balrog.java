@@ -1,5 +1,5 @@
 /**
- * The Elf class implements a wrapper for the base Creature class with the following additions
+ * The Balrog class implements a wrapper for the base Creature class with the following additions
  * Implements a maximum/minimum strength for the creature type [100/50]
  * Implements a maximum/minimum hitpoint total for the creature type [200/50]
  * 

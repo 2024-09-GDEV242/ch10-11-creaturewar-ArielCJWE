@@ -1,8 +1,8 @@
 
 /**
  * The Demon class implements a wrapper for the base Creature class with the following additions
- * Implements a maximum/minimum strength for the creature type [20/5]
- * Implements a maximum/minimum hitpoint total for the creature type [25/5]
+ * Implements a maximum/minimum strength for the creature type [40/20]
+ * Implements a maximum/minimum hitpoint total for the creature type [100/25]
  * 
  * @author Ariel Wong-Edwin
  * @version 11/12/24
@@ -13,14 +13,14 @@ public class Cyberdemon extends Demon
     private static final int MAX_CYBERDEMON_HP = 100;
     private static final int MIN_CYBERDEMON_HP = 25;
     private static final int MAX_CYBERDEMON_STR = 40;
-    private static final int MIN_CYBERDEMON_STR = 25;
+    private static final int MIN_CYBERDEMON_STR = 20;
 
     /**
      * Constructor for objects of class Demon -
      * Note that the calling class does not need to know anything about the 
      * requirements of elf minimum and maximum values
      * 
-     * The instantiating class asks for a Human and the human class is responsible for
+     * The instantiating class asks for a Demon and the cyberdemon class is responsible for
      * return a demon object with values in the appropriate range
      * 
      */
