@@ -38,9 +38,4 @@ public class Human extends Creature
           
     }
     
-    
-    // attack() - not overridden because Humans generate basic damage
-    // takeDamage(int) - not overridden, because Humans take all damage assigned to them
-
-    
 }

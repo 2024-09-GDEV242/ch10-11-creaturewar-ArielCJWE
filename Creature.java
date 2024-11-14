@@ -52,7 +52,6 @@ public abstract class Creature
         return ran.nextInt(str) + 1;
     }
     
-    
     /**
      * Is this creature still capable of fighting?
      * @return true when current hit point level is greater than zero
